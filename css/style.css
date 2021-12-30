@@ -64,6 +64,26 @@ section {
 
 /* Toggle */
 
+.toggle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background: #f60f20 url('../img/menu.png');
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 20;
+  cursor: pointer;
+}
+
+/* Navigation */
+
+.nav {
+  display: none;
+}
+
 /* Home Page */
 
 .home-content {
@@ -77,8 +97,4 @@ section {
   bottom: 0;
   right: 0;
   height: 110%;
-}
-
-.nav {
-  display: none;
 }
